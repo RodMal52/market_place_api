@@ -1,4 +1,4 @@
-equire 'spec_helper'
+require 'spec_helper'
 
 describe Product do
   let(:product) { FactoryGirl.build :product }
