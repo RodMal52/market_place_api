@@ -26,9 +26,7 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-group :development do
-  gem 'sqlite3'
-end
+
 
 group :development do
   gem 'sqlite3'
@@ -43,6 +41,7 @@ group :test do
   gem "rspec-rails"
   gem "shoulda-matchers"
 end
+
 
 gem "devise"
 
